@@ -37,5 +37,5 @@ jobs:
         -name: check uptime
         run: uptime
         -name: cpu info
-        run :nproc
+        run: nproc
         - name : umane -r
